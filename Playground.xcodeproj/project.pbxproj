@@ -14,6 +14,8 @@
 		0078C2931FD03CE600DFDDC7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0078C2911FD03CE600DFDDC7 /* LaunchScreen.storyboard */; };
 		0078C29E1FD03CE600DFDDC7 /* PlaygroundTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0078C29D1FD03CE600DFDDC7 /* PlaygroundTests.swift */; };
 		0078C2A91FD03CE600DFDDC7 /* PlaygroundUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0078C2A81FD03CE600DFDDC7 /* PlaygroundUITests.swift */; };
+		00C700121FD1737600E6E8F3 /* DesignableButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00C700111FD1737600E6E8F3 /* DesignableButton.swift */; };
+		00C700141FD173B000E6E8F3 /* DesignableButton.xib in Resources */ = {isa = PBXBuildFile; fileRef = 00C700131FD173B000E6E8F3 /* DesignableButton.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		0078C2A41FD03CE600DFDDC7 /* PlaygroundUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlaygroundUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0078C2A81FD03CE600DFDDC7 /* PlaygroundUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaygroundUITests.swift; sourceTree = "<group>"; };
 		0078C2AA1FD03CE600DFDDC7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00C700111FD1737600E6E8F3 /* DesignableButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignableButton.swift; sourceTree = "<group>"; };
+		00C700131FD173B000E6E8F3 /* DesignableButton.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DesignableButton.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +107,8 @@
 				0078C28F1FD03CE600DFDDC7 /* Assets.xcassets */,
 				0078C2911FD03CE600DFDDC7 /* LaunchScreen.storyboard */,
 				0078C2941FD03CE600DFDDC7 /* Info.plist */,
+				00C700111FD1737600E6E8F3 /* DesignableButton.swift */,
+				00C700131FD173B000E6E8F3 /* DesignableButton.xib */,
 			);
 			path = Playground;
 			sourceTree = "<group>";
@@ -235,6 +241,7 @@
 				0078C2931FD03CE600DFDDC7 /* LaunchScreen.storyboard in Resources */,
 				0078C2901FD03CE600DFDDC7 /* Assets.xcassets in Resources */,
 				0078C28E1FD03CE600DFDDC7 /* Main.storyboard in Resources */,
+				00C700141FD173B000E6E8F3 /* DesignableButton.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,6 +268,7 @@
 			files = (
 				0078C28B1FD03CE600DFDDC7 /* ViewController.swift in Sources */,
 				0078C2891FD03CE500DFDDC7 /* AppDelegate.swift in Sources */,
+				00C700121FD1737600E6E8F3 /* DesignableButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
