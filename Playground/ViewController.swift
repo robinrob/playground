@@ -26,6 +26,8 @@ class ViewController: UIViewController, UIPickerViewDataSource, UIPickerViewDele
         
         pickerView.delegate = self
         pickerView.dataSource = self
+        
+        pickerView.selectRow(0, inComponent: 1, animated: true)
     }
 
     override func didReceiveMemoryWarning() {

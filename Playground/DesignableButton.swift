@@ -10,24 +10,6 @@ import UIKit
 
 
 @IBDesignable class DesignableButton: UIButton {
-//    required init(coder aDecoder: NSCoder) {
-//        super.init(coder: aDecoder)
-//    }
-//
-//    override init(frame: CGRect) {
-//        super.init(frame: frame)
-//
-//        setButtonStyle()
-//    }
-//
-//    override func awakeFromNib() {
-//        setButtonStyle()
-//    }
-//
-//    func setButtonStyle() {
-//        self.layer.backgroundColor = Color.red
-//    }
-    
     @IBInspectable var borderColor: UIColor = UIColor.white {
         didSet {
             layer.borderColor = borderColor.cgColor
